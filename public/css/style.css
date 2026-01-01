@@ -1,3 +1,31 @@
-.background{
-    background: linear-gradient(to right, gray , dimgray);
+/* .background {
+    background: linear-gradient(to right, gray, dimgray);
+} */
+.background {
+    background: linear-gradient(to right, rgb(236, 28, 28), rgb(123, 10, 10),red);
+}
+
+
+.card-title {
+    font-size: 1rem;
+    height: 110px;
+    border-bottom: 5px solid gray;
+}
+
+.card-title::-webkit-scrollbar {
+    display: none;
+}
+
+.source {
+    border-bottom: 5px solid gray;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+    overflow: auto;
+}
+
+.card-text {
+    font-size: 0.8rem;
+    height: 200px;
 }

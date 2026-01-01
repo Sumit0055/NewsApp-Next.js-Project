@@ -1,10 +1,13 @@
 import Home from '@/components/Home'
-import React from 'react'
+import React, { Suspense } from 'react'
 
 export default function HomePage() {
   return (
     <>
-    <Home/>
+    {/* <Home/> */}
+    <Suspense>
+      <Home/>
+    </Suspense>
     </>
   )
 }
